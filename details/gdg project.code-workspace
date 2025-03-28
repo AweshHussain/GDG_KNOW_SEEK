@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "xprotocol",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 33060,
+				"driver": "MySQL",
+				"name": "Details",
+				"database": "detailsdb",
+				"username": "root",
+				"password": "AH_Since_2006@",
+				"connectionTimeout": 30
+			}
+		],
+		"liveServer.settings.multiRootWorkspaceName": "gdg project"
+	}
+}

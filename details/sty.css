@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.tc {
+    width: 90%;
+    max-width: 900px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #007BFF;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #007BFF, #00D4FF);
+    margin: 20px 0;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+thead {
+    background: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px solid #007BFF;
+}
+
+td, th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background: #f1f9ff;
+    transition: 0.3s;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background: #007BFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background: #0056b3;
+}
+
+/* Preformatted Text Styling */
+pre {
+    background: transparent;
+    padding: 15px;
+    text-align: left;
+    overflow-x: auto;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* Table Header Styling */
+thead th {
+    padding: 14px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+    background: #e9f5ff;
+    border-bottom: 2px solid #007BFF;
+}
+
+/* Adjust Table Data Alignment */
+td {
+    text-align: left;
+    padding: 12px;
+}
+
+    white-space: pre-wrap;
+}
