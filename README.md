@@ -2,11 +2,6 @@
 
 📊 A centralized platform to access study materials, notes, and videos for students (Class 1–12)  
 
-## 🌐 Live Demo  
-👉 (Add your deployed link here)
-
----
-
 ## 📌 Overview  
 **Know & Seek** is a web-based platform designed to simplify learning by providing students with a single place to access educational resources.  
 
